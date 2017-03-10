@@ -1,0 +1,224 @@
+body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+/*common css*/
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+/*end common css*/
+
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header {
+	width: 100%;
+	height: 20vh;
+	overflow: hidden;
+
+}
+
+.logo {
+	width: 20%;
+}
+.menu{
+	width: 78%;
+}
+.menu ul{
+	margin: 0;
+	list-style: none;
+
+}
+.menu ul li{
+	display: inline-block;
+	margin: 18px;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: orange;
+}
+
+.slider {
+	position: relative;
+	width: 100%;
+	height: 50vh;
+}
+.images2{
+	width: 40%;
+	height: 50vh;
+	position: absolute;
+	bottom: 240px;
+	right:0;
+}
+.images3{
+	width: 40%;
+	height: 50vh;
+	position: absolute;
+	bottom: 240px;
+	right:0;
+
+}
+.service {
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+	width: 100%;
+	height: 50vh;
+	display: inline-block;
+	margin-top: 4px;
+
+}
+
+.service_one {
+	width: 30%;
+	display: inline-block;
+	margin: 5px;
+}
+.blackbar{
+	width: 100%;
+	height: 4px;
+	background-color: black;
+	margin-top: 2px;
+}
+.service_title  span{
+	text-transform: uppercase;
+	color: black;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.service_text p{
+	font-family: sans-serif;
+	text-align: justify;
+}
+
+.service_action span{
+	text-transform: uppercase;
+	color: orange;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+.service_two{
+	width: 30%;
+	display: inline-block;
+	margin: 5px;}
+
+
+.portfolio {
+	width: 100%;
+	height: 35vh;
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+}
+
+.port_title span{
+	text-transform: uppercase;
+	color: black;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+
+}
+
+.port_image {
+
+}
+
+.image1 {
+	width: 22%;
+}
+.image1 {
+	position: relative;
+	display: inline-block;
+	margin: 8px;
+}
+.image1 button {
+    position: absolute;
+    right: -4px;
+    bottom: 3px;
+    text-transform: uppercase;
+    width: 100px;
+    height: 25px;
+    background-color: orange;
+}
+
+.image1 span {
+    position: absolute;
+    right: -3px;
+    bottom: 1px;
+}
+.blog {
+	width: 100%;
+	overflow: hidden;
+	height: 30vh;
+
+}
+
+.update {
+	width: 72%;
+}
+
+.update_title span{
+	text-transform: uppercase;
+	color: black;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.update_text p{
+	font-family: serif;
+	text-align: justify;
+}
+
+.connect {
+	width: 24%;
+}
+
+.connect_title span{
+	text-transform: uppercase;
+	color: black;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.connect_logo {
+}
+
+.footer {
+	overflow: hidden;
+	height: 10vh;
+	background-color: grey;
+}
+.menumidle{
+	width: 960px;
+}
+
+.footer_menu ul{
+	margin: 0;
+	list-style: none;
+
+}
+
+.footer_menu ul li{
+	display: inline-block;
+	margin: 0px;
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: black;
+}
